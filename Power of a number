@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h> // Required for pow()
+
+int main() {
+    double base = 2.0;
+    double exponent = 3.0;
+    double result;
+
+    // Calculates base raised to the power of exponent (2^3)
+    result = pow(base, exponent);
+
+    printf("%.1f^%.1f = %.1f\n", base, exponent, result);
+    return 0;
+}
